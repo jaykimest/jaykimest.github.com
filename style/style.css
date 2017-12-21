@@ -214,7 +214,7 @@ a {
 }
 
 .lineAnimo {
-	animation-duration: 3.5s;
+	animation-duration: 7s;
   animation-name: lineAnimo;
 	animation-iteration-count: infinite;
 }
@@ -1992,27 +1992,27 @@ a {
 
 @keyframes lineAnimoD {
   from {
-    width: 26px;
+    width: 240px;
 		opacity: 0;
-		transform: translate(70px, -90px) rotate(45deg);
+		transform: translate(-240px, -240px) rotate(45deg);
   }
 
 	3% {
-   width: 390px;
+   width: 240px;
 	 opacity: 1;
-	 transform: translate(0, 30px) rotate(45deg);
+	 transform: translate(0, 0) rotate(45deg);
  	}
 
   15% {
-	 width: 26px;
+	 width: 240px;
  	 opacity: 0;
- 	 transform: translate(1050px, 900px) rotate(45deg);
+ 	 transform: translate(240px, 240px) rotate(45deg);
  	}
 
   100% {
-	 width: 26px;
+	 width: 240px;
  	 opacity: 0;
- 	 transform: translate(1050px, 900px) rotate(45deg);
+ 	 transform: translate(240px, 240px) rotate(45deg);
  	}
 }
 
@@ -2030,13 +2030,13 @@ a {
  	}
 
   15% {
-	 width: 26px;
+	 width: 390px;
  	 opacity: 0;
  	 transform: translateX(-900px);
  	}
 
   100% {
-	 width: 26px;
+	 width: 390px;
  	 opacity: 0;
  	 transform: translateX(-900px);
  	}
@@ -2044,27 +2044,27 @@ a {
 
 @keyframes lineAnimoRD {
   from {
-    width: 26px;
+    width: 240px;
 		opacity: 0;
-		transform: translate(-70px, -90px) rotate(-45deg);
+		transform: translate(240px, -240px) rotate(-45deg);
   }
 
 	3% {
-   width: 390px;
+   width: 240px;
 	 opacity: 1;
-	 transform: translate(0, 30px) rotate(-45deg);
+	 transform: translate(0, 0) rotate(-45deg);
  	}
 
   15% {
-	 width: 26px;
+	 width: 240px;
  	 opacity: 0;
- 	 transform: translate(-1050px, 900px) rotate(-45deg);
+ 	 transform: translate(-240px, 240px) rotate(-45deg);
  	}
 
   100% {
-	 width: 26px;
+	 width: 240px;
  	 opacity: 0;
- 	 transform: translate(-1050px, 900px) rotate(-45deg);
+ 	 transform: translate(-240px, 240px) rotate(-45deg);
  	}
 }
 
