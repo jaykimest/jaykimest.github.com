@@ -1341,6 +1341,32 @@ a {
 
 }
 
+@media only screen and (max-height: 1023px) {
+
+	.hide_pad {
+		display: none !important;
+		visibility: hidden !important;
+	}
+
+	.release_warp {
+    max-height: 35vh;
+	}
+
+	.review_item .review_comment {
+		font-size: 18px;
+    line-height: 24px;
+	}
+
+	.full_graph .embed_video {
+    margin: 136px 0 50px 0;
+	}
+
+	.full_graph .graph_warp {
+		margin-top: 136px;
+	}
+
+}
+
 @media only screen and (max-width: 799px), (max-height: 680px) {
 
 	#fp-nav.right {
